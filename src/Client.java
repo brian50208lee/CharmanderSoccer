@@ -3,7 +3,6 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.net.Socket;
-import java.util.function.IntPredicate;
 
 public class Client extends Thread{
 	//socket state
