@@ -90,7 +90,7 @@ public class Server extends Thread{
 			while (gameThread.socket!=GameThread.SOCKET_NULL) {
 				Datagram obj=(Datagram)input.readObject();
 				objectHandling(obj);
-				sleep(1000/300);
+				sleep(1000/120);
 				sendObject();
 			}
 		} catch (IOException e) {
